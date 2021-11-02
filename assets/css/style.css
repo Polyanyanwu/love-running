@@ -160,16 +160,26 @@ hr {
     border-radius: 50%;
 }
 /* event times */
-#times {
-    background: url('../images/dublin-city.webp') no-repeat center center;
+/* #times {
+    background-image: url('../images/dublin-city.webp');
     background-size: cover;
+    width: 100%;
+    background-position: center;
+    overflow: hidden;
+} */
+
+#times {
+    background-image: url('../images/times-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
     overflow: hidden;
 }
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
     float: left;
@@ -180,4 +190,22 @@ hr {
 }
 #times h2 {
     color: #fafafa;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+}
+.social-networks > li {
+    display:inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    margin: 1%;
+    color:#3a3a3a;
 }
