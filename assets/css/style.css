@@ -160,13 +160,6 @@ hr {
     border-radius: 50%;
 }
 /* event times */
-/* #times {
-    background-image: url('../images/dublin-city.webp');
-    background-size: cover;
-    width: 100%;
-    background-position: center;
-    overflow: hidden;
-} */
 
 #times {
     background-image: url('../images/times-background.webp');
@@ -188,6 +181,8 @@ hr {
     border: 2px solid white;
     box-sizing: border-box;
 }
+
+
 #times h2 {
     color: #fafafa;
 }
@@ -218,4 +213,36 @@ footer {
 
 #photos > img {
     width: 100%;
+}
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
